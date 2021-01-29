@@ -1,0 +1,165 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat-black";
+  font-weight: 900;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+  padding-bottom: 100px;
+}
+
+body {
+  font-family: "Montserrat-black";
+}
+
+/*navigation Bar --*/
+.navbar {
+  padding-bottom: 8%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/*download buttons*/
+.download-buttons {
+  margin: 5% 3% 2% 0;
+}
+
+/*title img*/
+.title-img {
+  position: absolute;
+  width: 50%;
+  transform: rotate(27deg);
+  right: 30%;
+}
+
+/*features image*/
+#features {
+  padding: 8% 17%;
+  background-color: white;
+  position: relative;
+  width: 100%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0 5%;
+}
+
+.symbols {
+  color: #ef8172;
+  margin-bottom: 1.3rem;
+}
+
+.symbols:hover {
+  color: red;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 10%;
+  margin: 4%;
+}
+
+.carousel-item {
+  padding: 8% 17%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 5px 20px 50px 20px;
+}
+
+#pricing {
+  padding: 120px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 5%;
+
+}
+
+.cta-text{
+  font-family: "Montserrat-black";
+  font-weight: 900;
+  line-height: 2;
+}
+
+.download-button{
+  margin: 2% 3%;
+}
+#footer{
+  text-align: center;
+  padding: 5%;
+  line-height: 20px;
+}
+.footer-symbols{
+  width: 3%;
+}
